@@ -76,6 +76,7 @@ package {
 				var retval:TextField = new TextField();
 				retval.defaultTextFormat = new TextFormat("_typewriter", 64, 0xffffff);
 				retval.text = i.toString();
+                                retval.background = false;
 				retval.cacheAsBitmap = true;
 				retval.height = retval.width = 64;
 				bitmapData.draw(retval);
